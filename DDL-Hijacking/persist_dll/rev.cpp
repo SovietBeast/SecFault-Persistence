@@ -1,4 +1,5 @@
 // All this code was gracefully stolen from https://github.com/tudorthe1ntruder/reverse-shell-poc/ <3
+#include "pch.h"
 #include <stdio.h>
 #include <string>
 #include <process.h>
